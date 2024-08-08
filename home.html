@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stopwatch</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav id="navigation">
+      <b>Stopwatch</b>
+    </nav>
+
+    <div id="stopwatch-container">
+        <div id="stopwatch">00:00.00</div>
+        <div id="stopwatch-buttons">
+            <button class="action-button">Play</button>
+            <button class="reset-button">Reset</button>
+            <button class="lap-button">Add Lap</button>
+        </div>
+    </div>
+    <div id="laps-container" style="display: none;">
+        <h2>Lap Tracker</h2>
+        <h3 id="laps-count">0 Laps</h3>
+        <ul id="laps"></ul>
+    </div>
+    
+    <div id="confirm-modal" class="modal">
+        <div class="modal-content">
+            <h2>Are you sure?</h2>
+            <p>Do you really want to reset the stopwatch? This will clear all lap times.</p>
+            <button id="confirm-reset">Yes, Reset</button>
+            <button id="cancel-reset">Cancel</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
