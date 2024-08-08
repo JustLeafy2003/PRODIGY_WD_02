@@ -140,7 +140,7 @@ button {
     color: white;
     padding: .75em 1.5em;
     margin: 0 .5em;
-    border-radius: .5em;
+    border-radius: 1.5em;
     cursor: pointer;
 }
 
