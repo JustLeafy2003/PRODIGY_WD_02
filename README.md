@@ -1,5 +1,5 @@
 # PRODIGY_WD_02
-  Repository for the Web Developer task #1 for my internship at Prodigy Infotech: A stopwatch application.
+  Repository for the Web Developer task #2 for my internship at Prodigy Infotech: A stopwatch application.
 
 This is a simple stopwatch application with a few features:
 * The stopwatch itself with the play button. Once the play button is activated, it will be replaced with a pause button, which pauses the stopwatch.
